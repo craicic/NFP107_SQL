@@ -1,3 +1,3 @@
-FROM postgres:15.2
+FROM postgres:15.4
 
 COPY create-db.sql /docker-entrypoint-initdb.d/
