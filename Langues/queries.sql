@@ -73,4 +73,4 @@ FROM personne as p
 
 -- Manipulation de la vue
 SELECT * FROM inscription;
-SELECT DISTINCT nom FROM inscription WHERE codelangue IS NOT NULL;
+SELECT DISTINCT nom FROM inscription WHERE codelangue IS NULL;
